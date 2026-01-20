@@ -28,7 +28,7 @@ Frequency of Purchases - how often they purchase items
 
 ## Hypotheses/Questions
 
-1. Is there a correlation between seasons and item purchased?
+1. Is there a correlation between seasons and clothing item purchased?
 2. Is there a correlation between age and item color?
 3. Is there a correlation between item color and season?
 4. Is there a correlation between location and purchase amount?
