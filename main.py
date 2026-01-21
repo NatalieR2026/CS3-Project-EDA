@@ -10,3 +10,9 @@ plt.style.use('seaborn-v0_8-deep')
 df = pd.read_csv('shopping_behavior_updated.csv')
 df_clothes = df[df['Category'] == 'Clothing']
 
+count_of_items = df_clothes.count('Clothing')
+print(count_of_items)
+
+clothing = sns.catplot(x='Season', y=sequence.count('Item Purchased'), color='Item Purchased', kind='bar', stacked=True)
+
+plt.savefig('clothes_season_stackedbarplot.png')
